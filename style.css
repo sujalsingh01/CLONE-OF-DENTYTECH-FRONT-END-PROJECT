@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,body{
+    height:100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+   /* background-color: aquamarine;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#nav h3{
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav i{
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+
+#nav h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 12px;
+    border: 1.5px solid black;
+    font-weight: 600;
+    font-size: larger;
+}
+#btn2{
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+#main>h1{
+    text-transform: uppercase;
+    font-size: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10%;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+#btm-right{
+    position: absolute;
+    bottom:5% ;
+    right: 2%;
+    font-size: 22px;
+}
